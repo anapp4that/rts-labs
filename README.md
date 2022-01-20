@@ -20,3 +20,5 @@ Here is my proposed Architecture diagram. It uses two EC2 instances, one for the
 
 ## Infrastructure as Code Tool
 For this project I will be using Terraform as the infrastructure as code tool.
+
+For managing the different environments, there are variables for all of the requested environments. Dev, QA, UAT, and Prod. Using these tfvar files we can control what variables are used when deploying to specific environments. 
