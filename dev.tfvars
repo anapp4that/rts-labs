@@ -1,0 +1,14 @@
+environment = "DEV"
+api_instance_type = DEV_API_INSTANCE_SIZE
+api_instance_name = DEV_API_INSTANCE_NAME
+api_instance_ami = DEV_API_INSTANCE_AMI
+client_instance_type = DEV_CLIENT_INSTANCE_SIZE
+client_instance_name = DEV_CLIENT_INSTANCE_NAME
+client_instance_ami = DEV_CLIENT_INSTANCE_AMI
+rds_instance_class = DEV_RDS_INSTANCE_CLASS
+rds_allocated_storage = DEV_RDS_STORAGE_SIZE
+rds_engine = DEV_RDS_ENGINE
+rds_db_name = DEV_RDS_DB_NAME
+rds_access_username = DEV_RDS_ACCESS_USERNAME (masked injected variable from deployment environment)
+rds_access_password = DEV_RDS_ACCESS_PASSWORD (masked injected variable from deployment environment)
+bucket_name = DEV_BUCKET_NAME

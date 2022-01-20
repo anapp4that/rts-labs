@@ -1,0 +1,14 @@
+environment = "QA"
+api_instance_type = QA_API_INSTANCE_SIZE
+api_instance_name = QA_API_INSTANCE_NAME
+api_instance_ami = QA_API_INSTANCE_AMI
+client_instance_type = QA_CLIENT_INSTANCE_SIZE
+client_instance_name = QA_CLIENT_INSTANCE_NAME
+client_instance_ami = QA_CLIENT_INSTANCE_AMI
+rds_instance_class = QA_RDS_INSTANCE_CLASS
+rds_allocated_storage = QA_RDS_STORAGE_SIZE
+rds_engine = QA_RDS_ENGINE
+rds_db_name = QA_RDS_DB_NAME
+rds_access_username = QA_RDS_ACCESS_USERNAME (masked injected variable from deployment environment)
+rds_access_password = QA_RDS_ACCESS_PASSWORD (masked injected variable from deployment environment)
+bucket_name = QA_BUCKET_NAME
