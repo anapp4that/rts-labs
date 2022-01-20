@@ -1,0 +1,8 @@
+name: validate_terraform
+on: [push]
+jobs:
+  validate_terraform_code:
+  runs-on: hashicorp/terraform
+  steps:
+    - run: terraform init
+    - run: terraform validate
